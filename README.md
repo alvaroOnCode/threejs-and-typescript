@@ -34,6 +34,7 @@ Learning ThreeJS and TypeScript basics.
 - ThreeJS Library files
 
   - `./build/three.module.js`
+  - `./jsm/controls/OrbitControls`
 
 ### ThreeJS Client
 
@@ -43,9 +44,10 @@ ES6 Import Syntax used in `client` code.
 
 - Browser sources
 
-  - `./index.html`
-  - `./client.js`
-  - `./three.module.js`
+  - `/index.html`
+  - `/client.js`
+  - `/three.module.js`
+  - `/jsm/OrbitControls`
 
 ## 🌍 Languages
 
