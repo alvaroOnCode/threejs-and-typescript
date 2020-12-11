@@ -1,6 +1,6 @@
 import express from "express";
-import http from "http";
 import path from "path";
+import http from "http";
 
 const port: number = 3000;
 
@@ -16,6 +16,15 @@ class App {
       "/build/three.module.js",
       express.static(
         path.join(__dirname, "../../node_modules/three/build/three.module.js")
+      )
+    );
+    app.use(
+      "/jsm/controls/OrbitControls",
+      express.static(
+        path.join(
+          __dirname,
+          "../../node_modules/three/examples/jsm/controls/OrbitControls.js"
+        )
       )
     );
 
