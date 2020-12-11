@@ -4,11 +4,11 @@
 
 Learning ThreeJS and TypeScript basics.
 
-## ⚙️ How To
+## 🔤 Structure
 
-### Structure
+### TypeScript
 
-#### TypeScript
+> TypeScript -> NodeJS Server
 
 - Client
 
@@ -20,12 +20,13 @@ Learning ThreeJS and TypeScript basics.
   - `./src/server/server.ts`
   - `./src/server/tsconfig.json`
 
-#### NodeJS Server
+### NodeJS Server
+
+> NodeJS Server -> ThreeJS Client
 
 - Main
 
   - `./dist/server/server.ts`
-  - `./src/client/tsconfig.json`
 
 - Static files
 
@@ -35,6 +36,17 @@ Learning ThreeJS and TypeScript basics.
 - ThreeJS Library files
 
 * `./build/three.module.js`
+
+### ThreeJS Client
+
+> ThreeJS Client -> NodeJS Server
+
+- Browser sources
+
+  - `./index.html`
+  - `./client.js`
+
+  - `./three.module.js`
 
 ## 🌍 Languages
 
