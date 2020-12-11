@@ -37,13 +37,14 @@ Learning ThreeJS and TypeScript basics.
 
 ### ThreeJS Client
 
+ES6 Import Syntax used in `client` code.
+
 > ThreeJS Client -> NodeJS Server
 
 - Browser sources
 
   - `./index.html`
   - `./client.js`
-
   - `./three.module.js`
 
 ## 🌍 Languages
