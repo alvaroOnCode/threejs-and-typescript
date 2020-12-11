@@ -8,8 +8,6 @@ Learning ThreeJS and TypeScript basics.
 
 ### TypeScript
 
-> TypeScript -> NodeJS Server
-
 - Client
 
   - `./src/client/client.ts`
@@ -35,7 +33,7 @@ Learning ThreeJS and TypeScript basics.
 
 - ThreeJS Library files
 
-* `./build/three.module.js`
+  - `./build/three.module.js`
 
 ### ThreeJS Client
 
