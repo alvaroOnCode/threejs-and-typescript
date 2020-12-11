@@ -12,25 +12,25 @@ Learning ThreeJS and TypeScript basics.
 
 - Client
 
-* `./src/client/client.ts`
-* `./src/client/tsconfig.json`
+  - `./src/client/client.ts`
+  - `./src/client/tsconfig.json`
 
 - Server
 
-* `./src/server/server.ts`
-* `./src/server/tsconfig.json`
+  - `./src/server/server.ts`
+  - `./src/server/tsconfig.json`
 
 #### NodeJS Server
 
 - Main
 
-* `./dist/server/server.ts`
-* `./src/client/tsconfig.json`
+  - `./dist/server/server.ts`
+  - `./src/client/tsconfig.json`
 
 - Static files
 
-* `./dist/client/index.html`
-* `./dist/client/client.js`
+  - `./dist/client/index.html`
+  - `./dist/client/client.js`
 
 - ThreeJS Library files
 
